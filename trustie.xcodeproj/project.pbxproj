@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					DE12F9341C70E5F700D97F0E = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7QKXT44X7G;
 					};
 				};
 			};
@@ -251,10 +252,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = trustie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaoselevators.trustie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "751b1602-13b0-4a4a-ae6e-267a2d62dfce";
 			};
 			name = Debug;
 		};
@@ -262,10 +265,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = trustie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaoselevators.trustie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "751b1602-13b0-4a4a-ae6e-267a2d62dfce";
 			};
 			name = Release;
 		};
@@ -288,6 +293,7 @@
 				DE12F94C1C70E5F700D97F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
